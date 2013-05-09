@@ -1,0 +1,121 @@
+<TaskerData sr="" dvi="1" tv="4.0u1m">
+  <Profile sr="prof78" ve="2">
+		<cdate>1355340232011</cdate>
+		<clp>true</clp>
+		<edate>1368105684030</edate>
+		<id>78</id>
+		<mid0>77</mid0>
+		<nme>Location SMS</nme>
+		<Event sr="con0" ve="2">
+			<code>7</code>
+			<pri>0</pri>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">C:FAV</Str>
+			<Str sr="arg2" ve="3">GPS</Str>
+		</Event>
+	</Profile>
+	<Project sr="proj0">
+		<cdate>1368105592923</cdate>
+		<name>Find My Phone</name>
+		<pids>78</pids>
+		<tids>77,132</tids>
+	</Project>
+	<Task sr="task132">
+		<cdate>1355339570289</cdate>
+		<edate>1368105688311</edate>
+		<id>132</id>
+		<nme>Get Location</nme>
+		<pri>10</pri>
+		<Action sr="act0" ve="3">
+			<code>11820</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.intangibleobject.securesettings.plugin.extra.BLURB>GPS Enabled</com.intangibleobject.securesettings.plugin.extra.BLURB>
+					<com.intangibleobject.securesettings.plugin.extra.BLURB-type>java.lang.String</com.intangibleobject.securesettings.plugin.extra.BLURB-type>
+					<com.intangibleobject.securesettings.plugin.extra.ENABLED>true</com.intangibleobject.securesettings.plugin.extra.ENABLED>
+					<com.intangibleobject.securesettings.plugin.extra.ENABLED-type>java.lang.Boolean</com.intangibleobject.securesettings.plugin.extra.ENABLED-type>
+					<com.intangibleobject.securesettings.plugin.extra.SETTING>gps</com.intangibleobject.securesettings.plugin.extra.SETTING>
+					<com.intangibleobject.securesettings.plugin.extra.SETTING-type>java.lang.String</com.intangibleobject.securesettings.plugin.extra.SETTING-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>GPS Enabled</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.intangibleobject.securesettings.plugin</Str>
+			<Str sr="arg2" ve="3">Secure Settings</Str>
+		</Action>
+		<Action sr="act1" ve="3">
+			<code>902</code>
+			<Int sr="arg0" val="2"/>
+			<Int sr="arg1" val="120"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act2" ve="3">
+			<code>11820</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.intangibleobject.securesettings.plugin.extra.BLURB>GPS Disabled</com.intangibleobject.securesettings.plugin.extra.BLURB>
+					<com.intangibleobject.securesettings.plugin.extra.BLURB-type>java.lang.String</com.intangibleobject.securesettings.plugin.extra.BLURB-type>
+					<com.intangibleobject.securesettings.plugin.extra.ENABLED>false</com.intangibleobject.securesettings.plugin.extra.ENABLED>
+					<com.intangibleobject.securesettings.plugin.extra.ENABLED-type>java.lang.Boolean</com.intangibleobject.securesettings.plugin.extra.ENABLED-type>
+					<com.intangibleobject.securesettings.plugin.extra.SETTING>gps</com.intangibleobject.securesettings.plugin.extra.SETTING>
+					<com.intangibleobject.securesettings.plugin.extra.SETTING-type>java.lang.String</com.intangibleobject.securesettings.plugin.extra.SETTING-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>GPS Disabled</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.intangibleobject.securesettings.plugin</Str>
+			<Str sr="arg2" ve="3">Secure Settings</Str>
+		</Action>
+	</Task>
+	<Task sr="task77">
+		<cdate>1355339570289</cdate>
+		<edate>1368105690942</edate>
+		<id>77</id>
+		<nme>Location SMS</nme>
+		<Action sr="act0" ve="3">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Get Location</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="5"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+		</Action>
+		<Action sr="act1" ve="3">
+			<code>547</code>
+			<lhs>%LOC</lhs>
+			<op>10</op>
+			<rhs></rhs>
+			<Str sr="arg0" ve="3">%location</Str>
+			<Str sr="arg1" ve="3">%LOCN</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act2" ve="3">
+			<code>547</code>
+			<lhs>%LOC</lhs>
+			<op>9</op>
+			<rhs></rhs>
+			<Str sr="arg0" ve="3">%location</Str>
+			<Str sr="arg1" ve="3">%LOC</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act3" ve="3">
+			<code>41</code>
+			<Str sr="arg0" ve="3">%SMSRF</Str>
+			<Str sr="arg1" ve="3">Click here: http://maps.google.com/maps?q=%location</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act4" ve="3">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%location</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>
