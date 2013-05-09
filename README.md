@@ -8,3 +8,5 @@ Power.prj.xml - A power management project that turns mobile data and autosync o
 Sleeping.prj.xml - A project that puts the phone into a 'quiet mode' at night when the phone is plugged in and charging.  Quiet mode is overridden when a Favorite contact is calling.
 
 Wallpaper.prj.xml - A project that downloads either a NASA or National Geographic photo of the day.  The user must set the phone's wallpaper to "APOD/apod.jpg" or "NGPOD/ngpod.jpg".
+
+Find_My_Phone.prj.xml - [root] A project that upon receiving a text message with the word "GPS" from a Favorite contact, obtains a GPS location and replies with a text message with a Google maps link to the current location of the phone.  ** Requires Root permissions and the Secure Settings plugin **
